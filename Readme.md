@@ -5,7 +5,7 @@ POST http://localhost:8080/person/create
 {
     "name": "bubu"
 }
- 
+  
 ответ 200
 
 Проверяем наличие записи:
