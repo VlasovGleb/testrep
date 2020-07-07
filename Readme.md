@@ -8,5 +8,6 @@ POST http://localhost:8080/person/create
 }
 
 ответ 200
+
 Проверяем наличие записи:
 GET http://localhost:8080/person/get/all
