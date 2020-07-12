@@ -25,16 +25,6 @@ public class TestBusinessLogicService {
         return testServiceRepository.get(UUID.fromString(id));
     }
 
-    public PersonEntity processPut(Person person, String id){
-        PersonEntity personEntity = new PersonEntity(person.getName());
-        testServiceRepository.put(personEntity, UUID.fromString(id));
-        return personEntity;
-    }
-
-    public void processDel(String id){
-        testServiceRepository.del(UUID.fromString(id));
-    }
-
     public List<PersonEntity> processGetAll(){
         return testServiceRepository.getAll();
     }
