@@ -346,7 +346,7 @@ POST http://localhost:8080/person/create
     "name": "bubu"
 }
 
-ответ 200
+ответ 200g
 Проверяем наличие записи:
 GET http://localhost:8080/person/get/all
 
